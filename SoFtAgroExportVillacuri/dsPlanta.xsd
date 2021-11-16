@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPlanta" targetNamespace="http://tempuri.org/dsPlanta.xsd" xmlns:mstns="http://tempuri.org/dsPlanta.xsd" xmlns="http://tempuri.org/dsPlanta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPlanta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPlanta" msprop:Generator_UserDSName="dsPlanta">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TipoJaba" msprop:Generator_TableClassName="TipoJabaDataTable" msprop:Generator_TableVarName="tableTipoJaba" msprop:Generator_TablePropName="TipoJaba" msprop:Generator_RowDeletingName="TipoJabaRowDeleting" msprop:Generator_RowChangingName="TipoJabaRowChanging" msprop:Generator_RowEvHandlerName="TipoJabaRowChangeEventHandler" msprop:Generator_RowDeletedName="TipoJabaRowDeleted" msprop:Generator_UserTableName="TipoJaba" msprop:Generator_RowChangedName="TipoJabaRowChanged" msprop:Generator_RowEvArgName="TipoJabaRowChangeEvent" msprop:Generator_RowClassName="TipoJabaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idTipoJaba" msprop:Generator_ColumnVarNameInTable="columnidTipoJaba" msprop:Generator_ColumnPropNameInRow="idTipoJaba" msprop:Generator_ColumnPropNameInTable="idTipoJabaColumn" msprop:Generator_UserColumnName="idTipoJaba" type="xs:string" minOccurs="0" />
+              <xs:element name="NomTipoTabla" msprop:Generator_ColumnVarNameInTable="columnNomTipoTabla" msprop:Generator_ColumnPropNameInRow="NomTipoTabla" msprop:Generator_ColumnPropNameInTable="NomTipoTablaColumn" msprop:Generator_UserColumnName="NomTipoTabla" type="xs:string" minOccurs="0" />
+              <xs:element name="PesoJaba" msprop:Generator_ColumnVarNameInTable="columnPesoJaba" msprop:Generator_ColumnPropNameInRow="PesoJaba" msprop:Generator_ColumnPropNameInTable="PesoJabaColumn" msprop:Generator_UserColumnName="PesoJaba" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
